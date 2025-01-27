@@ -1,0 +1,23 @@
+# Amount of memory (in MB)
+megs: 128
+
+# Paths to the BIOS and VGA BIOS
+romimage: file=/usr/share/bochs/BIOS-bochs-legacy, address=0xffff0000
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+# Floppy drive setup
+floppya: 1_44=build/main_floppy.img, status=inserted
+
+# Boot device
+boot: floppy
+
+# Mouse support
+mouse: enabled=0
+
+# Display settings
+display_library: sdl2, options="gui_debug"
+
+# Logging
+log: bochslog.txt
+
+debug: action=report
