@@ -1,0 +1,1 @@
+A simple x86 operating system bootloader and kernel written in assembly, along with a FAT12 disk image utility in C. Start to learn a new thing and how computers work thanks to NanoByte (YouTube channel). Check out the NanoByte playlist on [YouTube](https://www.youtube.com/watch?v=9t-SPC7Tczc&list=PLFjM7v6KGMpjWYxnihhd4P3G0BhMB9ReG).
